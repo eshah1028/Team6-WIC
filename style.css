@@ -1,0 +1,27 @@
+h1 {
+    color: pink;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box1 {
+    background-color: 	#FFFFC5;
+    width: 600px;
+    height: 400px;
+}
+
+.box2 {
+    background-color: rgb(253, 185, 196);
+    width: 400px;
+    height: 250px;
+}
+
+.highlight-text {
+    color: rgb(237, 206, 71);
+    font-size: 30px;
+}
+
+.highlight-text2 {
+    color: rgb(245, 103, 150);
+    font-size: 20px;
+}
