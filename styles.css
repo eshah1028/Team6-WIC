@@ -14,7 +14,7 @@ body {
     /* Customize the default size, color, and font for text*/
     font-size: 16px;
     color: var(--text-color);
-    font-family: Baby; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
+    /*font-family: BabyDoll; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
 
 
     /* Put space around the edges of the webpage */
@@ -51,7 +51,7 @@ h2 {
 
 
 h3 {
-    font-family: Baby;
+    font-family: BabyDoll;
     color: #626e6a;
     font-size: 40px;
     margin-left: 10px;
@@ -66,7 +66,7 @@ h4 {
 
 
 p {
-   font-family: Baby;
+   font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
 }
@@ -179,7 +179,7 @@ button:hover {
 }
 
 @font-face {
-    font-family: 'Baby';
+    font-family: 'BabyDoll';
     src: url('font/BabyDoll.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
