@@ -69,11 +69,13 @@ p {
    display: flex;
    flex-direction: column;
    text-align: left;
-   margin-top: 10px;
+   /*margin-top: 10px;*/
    background-color: #8b998c;
    font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
+   margin: auto;padding-bottom:30px;
+   border-radius:1em;
 }
 
 
