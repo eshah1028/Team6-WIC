@@ -68,8 +68,8 @@ h4 {
 p {
    display: flex;
    flex-direction: column;
-   text-align: center;
-   /*margin-top: 10px;*/
+   text-align: left;
+   margin-top: 10px;
    background-color: #8b998c;
    font-family: BabyDoll;
    color: var(--text-color);
