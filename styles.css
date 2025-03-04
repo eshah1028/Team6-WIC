@@ -78,7 +78,7 @@ a * {
 }*/
 
 
-button {
+a.button {
     /* Example Style, replace with your own! */
     background-color: #626e6a;    /* button color */
     color: #f1ecd9;               /* text color */
