@@ -117,10 +117,10 @@ button:hover {
     margin-top: 20px;           /* Optional: Adjust top margin */
 }
 
-/*.header-item:nth-of-type(2) {
-    /* Style for the first item (could be the first button, image, or text) 
-    background-color: #8b998c;  /* Example: Background color 
-}*/
+.header-item:nth-of-type(2) {
+    /* Style for the first item (could be the first button, image, or text) */
+    background-color: #8b998c;  /* Example: Background color */
+}
 
 
 /*** footer ***
