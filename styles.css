@@ -14,7 +14,7 @@ body {
     /* Customize the default size, color, and font for text*/
     font-size: 16px;
     color: var(--text-color);
-    font-family: Tahoma, sans-serif; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
+    font-family: Baby; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
 
 
     /* Put space around the edges of the webpage */
