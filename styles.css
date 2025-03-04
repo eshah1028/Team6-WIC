@@ -68,7 +68,7 @@ h4 {
 p {
    display: flex;
    flex-direction: column;
-   text-align: left;
+   text-align: center;
    /*margin-top: 10px;*/
    background-color: #8b998c;
    font-family: BabyDoll;
@@ -76,6 +76,7 @@ p {
    font-size: 30px;
    margin: auto;padding-bottom:30px;
    border-radius:1em;
+   overflow:hidden;
 }
 
 
