@@ -57,26 +57,35 @@ h3 {
     margin-left: 10px;
 }
 
-
-h4 {
+h4{
    font-family: Sunflare;
    font-size: 50px;
    margin-left: 10px;
 }
 
+.h4-item {
+   font-family: Sunflare;
+   font-size: 30px;
+   margin-left: 10px;
+}
 
-p {
-   display: flex;
-   flex-direction: column;
+p{
    text-align: left;
    background-color: #8b998c;
    font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
-   margin: auto;padding-bottom:30px;padding-top:30px;padding-left: 10px;padding-right: 10px;
-   border-radius:1em;
-   overflow:hidden;
 }
+
+.p-item {
+   text-align: left;
+   background-color: #8b998c;
+   font-family: BabyDoll;
+   color: var(--text-color);
+   font-size: 30px;
+  
+}
+
 
 
 /*a,
@@ -122,6 +131,14 @@ button:hover {
 .header-item:nth-of-type(2) {
     /* Style for the first item (could be the first button, image, or text) */
     background-color: #8b998c;  /* Example: Background color */
+}
+
+.p-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;padding-bottom:30px;padding-top:30px;padding-left: 10px;padding-right: 10px;
+    border-radius:1em;
+    overflow:hidden;
 }
 
 
