@@ -31,7 +31,7 @@ body {
 
 h1 {
 
-   background-color: #8b998c;
+   background-color: #45504c;
    color: #f1ecd9;
    font-family: Sunflare;
    padding: 50px;
@@ -71,7 +71,7 @@ h4{
 
 p{
    text-align: left;
-   background-color: #8b998c;
+   background-color: #cec8b2;
    font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
