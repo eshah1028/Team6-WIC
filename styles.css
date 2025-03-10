@@ -145,7 +145,7 @@ button:hover {
     flex-direction: column;
 
     margin: auto;padding-bottom:30px;padding-top:30px;padding-left: 10px;padding-right: 10px;
-    background-color: var(--bg-color);
+    /*background-color: var(--bg-color);*/
     border-radius:1em;
     overflow:hidden;
 }
