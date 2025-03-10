@@ -80,6 +80,8 @@ p{
 .p-item {
    text-align: left;
    /*background-color: #8b998c;*/
+   flex-grow: 1;
+   align-self: center;
    font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
@@ -136,6 +138,7 @@ button:hover {
 .p-container{
     display: flex;
     flex-direction: column;
+
     margin: auto;padding-bottom:30px;padding-top:30px;padding-left: 10px;padding-right: 10px;
     background-color: #8b998c;
     border-radius:1em;
