@@ -78,6 +78,8 @@ p{
 }
 
 .p-item {
+   display:flex;
+   flex-direction: column;
    text-align: left;
    /*background-color: #8b998c;*/
    background-color: #8b998c;
