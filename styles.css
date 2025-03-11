@@ -80,12 +80,12 @@ p{
 .p-item {
    display:flex;
    flex-direction: column;
-   text-align: left;
+   text-align: center;
    /*background-color: #8b998c;*/
    background-color: #8b998c;
    flex-basis: 50%;
    outline-width: 1cap;
-   width: 500;
+   /*width: 500px;*/
    justify-content: center;
    flex-grow: 1;
    align-self: center;
@@ -154,6 +154,7 @@ button:hover {
     /*background-color: var(--bg-color);*/
     border-radius:1em;
     overflow:hidden;
+    align-items: stretch;
 }
 
 
