@@ -75,6 +75,7 @@ p{
    color: var(--text-color);
    font-size: 30px;
    background-color: #cec8b2;
+   border-radius: 10px;
 }
 
 p.p-item{
