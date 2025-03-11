@@ -70,8 +70,14 @@ h4{
    margin-left: 10px;
 }
 
-
 p{
+   font-family: BabyDoll;
+   color: var(--text-color);
+   font-size: 30px;
+   background-color: #cec8b2;
+}
+
+p.p-item{
    display: flex;
    text-align: center;
    width: 500px;
