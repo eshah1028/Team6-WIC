@@ -61,6 +61,7 @@ h4{
    font-family: Sunflare;
    font-size: 50px;
    margin-left: 10px;
+   width: 500px;
 }
 
 .h4-item {
@@ -69,11 +70,20 @@ h4{
    margin-left: 10px;
 }
 
+p:nth-of-type(1){
+    text-align: center;
+    width: 500px;
+    background-color: #cec8b2;
+    font-family: BabyDoll;
+    color: var(--text-color);
+    font-size: 30px;
+    border-radius: 10px;
+}
+
 p{
    display: flex;
    text-align: center;
    width: 500px;
-   background-color: #cec8b2;
    font-family: BabyDoll;
    color: var(--text-color);
    font-size: 30px;
