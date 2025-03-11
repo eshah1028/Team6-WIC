@@ -83,8 +83,8 @@ p{
    text-align: left;
    /*background-color: #8b998c;*/
    background-color: #8b998c;
-   /*flex-basis: 50%;*/
-   outline-width: 0cap;
+   flex-basis: 50%;
+   outline-width: 1cap;
    width: 500;
    justify-content: center;
    flex-grow: 1;
