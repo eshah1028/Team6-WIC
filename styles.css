@@ -89,6 +89,7 @@ p{
    align-self: center;
    font-family: BabyDoll;
    color: var(--text-color);
+   border-radius: 10px;
    font-size: 30px;
   
 }
