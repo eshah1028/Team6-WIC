@@ -111,7 +111,9 @@ a.button {
     border: none;               /* hides the default border */
     padding: 5px 12px;          /* space between button's text and edge */
     border-radius: 5px;         /* curved edges instead of square */
-    cursor: pointer;            /* makes the cursor change when over button */
+    cursor: pointer;
+    width: 50px;
+    align-self: center;            /* makes the cursor change when over button */
 }
 
 button:hover {
