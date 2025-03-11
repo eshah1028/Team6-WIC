@@ -93,6 +93,12 @@ img.img-item{
     align-self: center;
 }
 
+img.sprout-item{
+    display: flex;
+    height: 200px;
+    align-self: center;
+}
+
 .p-item {
    display:flex;
    flex-direction: column;
