@@ -83,7 +83,9 @@ p{
    text-align: left;
    /*background-color: #8b998c;*/
    background-color: #8b998c;
-   flex-basis: 50%;
+   /*flex-basis: 50%;*/
+   outline-width: 0cap;
+   width: 500;
    justify-content: center;
    flex-grow: 1;
    align-self: center;
