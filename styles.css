@@ -93,7 +93,9 @@ p{
   
 }
 
-
+.p-item img {
+    border-radius: 10px; /* Optional rounded corners for the image */
+}
 
 /*a,
 a * {
@@ -101,7 +103,7 @@ a * {
 }*/
 
 
-a.button {
+.p-item button {
     /* Example Style, replace with your own! */
     background-color: #626e6a;    /* button color */
     color: #f1ecd9;               /* text color */
@@ -112,7 +114,7 @@ a.button {
 }
 
 
-button:hover {
+.p-item button:hover {
     /* Make the button look different when the user hovers over it */
     background-color: #85998c;
 }
