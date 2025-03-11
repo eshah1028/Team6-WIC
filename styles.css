@@ -86,6 +86,12 @@ p.p-item{
    font-size: 30px;
 }
 
+img.p-item{
+    display: flex;
+    width: 500px;
+    align-self: center;
+}
+
 .p-item {
    display:flex;
    flex-direction: column;
