@@ -103,7 +103,7 @@ a * {
 }*/
 
 
-.p-item button {
+a.button {
     /* Example Style, replace with your own! */
     background-color: #626e6a;    /* button color */
     color: #f1ecd9;               /* text color */
@@ -113,8 +113,7 @@ a * {
     cursor: pointer;            /* makes the cursor change when over button */
 }
 
-
-.p-item button:hover {
+button:hover {
     /* Make the button look different when the user hovers over it */
     background-color: #85998c;
 }
