@@ -70,7 +70,9 @@ h4{
 }
 
 p{
-   text-align: left;
+   display: flex;
+   text-align: center;
+   width: 500px;
    background-color: #cec8b2;
    font-family: BabyDoll;
    color: var(--text-color);
@@ -83,9 +85,9 @@ p{
    text-align: center;
    /*background-color: #8b998c;*/
    background-color: #8b998c;
-   flex-basis: 50%;
+   /*flex-basis: 50%;*/
    outline-width: 1cap;
-   /*width: 500px;*/
+   width: 500px;
    justify-content: center;
    flex-grow: 1;
    align-self: center;
