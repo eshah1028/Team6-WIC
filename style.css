@@ -1,0 +1,159 @@
+body {
+    background-color: #F1ECD9; /* Replace with any color */
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 100px; /* Adjust based on header size */
+}
+
+.top-right-buttons {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    top: 20px;  /* Distance from the top */
+    left: 35%;  /* Center horizontally */
+    gap: 10px; /* Space between buttons */
+}
+
+.top-right-buttons button {
+    padding: 15px 20px;
+    font-size: larger;
+    background-color: #24342d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Baby;
+}
+
+
+.header-box {
+    background-color: #88998C; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Aligns image & text side by side */
+    align-items: center; /* Centers them vertically */
+    gap: 20px; /* Space between image and text */
+}
+.drops{
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+    font-family: Sunflare;
+    background-color: #88998C; /* Any color */
+    color: #F1ECD9; /* Text color */
+    padding: 50px; /* Adds space inside the header */
+    text-align: center;
+    font-size: 80px;
+}
+
+h2{
+    font-family: Baby;
+    color: white;
+    margin-top: -50px;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Sunflare;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.first-body {
+    color: #45504C;
+    padding: 20px;
+    font-size: 25px;;
+}
+.first-text{
+    color: #283832
+}
+
+.small-text {
+    color: #88998C;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.first{
+    text-align: center;
+    display: flex; /* Aligns image & text side by side */
+    align-items: center; /* Centers them vertically */
+    gap: 20px;
+
+}
+.text{
+    margin-top: 50px;
+}
+.video1{
+    margin-right: 20px;
+}
+.photo1 {
+    float: inline-end;
+    margin-top: 500px;
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 20px;
+}
+
+.image-divider1 {
+    background-image: url('images/Moniker-General_-Credit-Natalie-Warr-1-1024x683.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust the height to control the portion it covers */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Adjust text color */
+    text-align: center;
+}
+
+.image-divider2 {
+    background-image: url('images/San-Diego.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust the height to control the portion it covers */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Adjust text color */
+    text-align: center;
+}
+
+
+/*fonts*/
+
+
+@font-face {
+    font-family: 'Sunflare'; 
+    src: url('fonts/Sunflare.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+
+@font-face {
+    font-family: 'Juli'; 
+    src: url('fonts/juliette.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Genty'; 
+    src: url('fonts/GentyDemo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Baby'; 
+    src: url('fonts/BabyDoll.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
