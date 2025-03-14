@@ -108,7 +108,7 @@ h4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px; /* Adjust the height to control the portion it covers */
+    height: 10px; /* Adjust the height to control the portion it covers */
     display: flex;
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
@@ -121,13 +121,21 @@ h4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px; /* Adjust the height to control the portion it covers */
+    height: 10px; /* Adjust the height to control the portion it covers */
     display: flex;
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
     color: white; /* Adjust text color */
     text-align: center;
 }
+.text-center {
+    text-align: center;
+}
+
+.text-center2 {
+    text-align: center;
+}
+  
 
 
 /*fonts*/
