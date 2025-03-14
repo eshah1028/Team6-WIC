@@ -16,9 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
     
-    // Run once on load
+
     checkFade();
     
-    // Run on scroll
     window.addEventListener('scroll', checkFade);
   });
