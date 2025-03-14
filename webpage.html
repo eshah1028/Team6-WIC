@@ -2,10 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Our Webpage - Team 6</title>
         <link rel="icon" href="images/shp1.png">
-        <link rel = "stylesheet" href = "style.css"/>
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css"/>
+        
         <link rel="icon" href="" type="image/x-icon" />
         <!--font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,109 +19,70 @@
         <script type="text/javascript" src="script.js"></script>
         
         <div class="top-right-buttons">
-            <button onclick="location.href='#LocalShops'">Let's Shop</button>
+            <button onclick="location.href='#LocalShops'">Let's Shop!</button>
             <button onclick="location.href='#Restaurants'">Hungry?</button>
-            <button onclick="location.href='#Support'">Learn More!</button>
+            <button onclick="location.href='#top'">Back to Top.</button>
         </div>
         
         <div class="header-box">
-            <img class ="drops" src="images/leftdrop.png" alt="Description" class="image">
-            <div class = "header-text">
+            <img class="drops" src="images/leftdrop.png" alt="Description" class="image">
+            <div class="header-text">
                 <h1>Shop Local, San Diego!</h1>
-                <h2>Supporting Community, One Business at a Time</h2>
+                <h2 id="top">Supporting Community, One Business at a Time</h2>
             </div>  
-            <img class = "drops" src ="images/rightdrop.png" alt="Right Drop" class = "image">
+            <img class="drops" src="images/rightdrop.png" alt="Right Drop" class="image">
         </div>
     </head>
-<body>
-
-    <div class = "first">
-        <div class = "text" >
-            <h4 class = "first-text"> Why Shop Locally?</h4>
-            <h2 class = "first-body"> Reduces Environmental Impact </h2>
-            <h2 class = "small-text"> - Shopping nearby cuts down on shipping and transportation emissions, making it a greener choice. </h2>
-            <h2 class = "first-body"> Encourages Local Entrepreneurship </h2>
-            <h2 class = "small-text"> - More support for small businesses means more opportunities for local startups and innovation. </h2>
-            <h2 class = "first-body"> Boosts the Local Economy </h2>
-            <h2 class = "small-text"> - More dollars spent at local stores circulate back into the city, creating jobs and growth.
-            </h2>
-            <h2 class = "first-body"> Fresher, Sustainable Food </h2>  
-            <h2 class = "small-text"> - Farmers' markets and local grocers provide fresh, seasonal, and organic produce straight from regional farms </h2>  
-            <h2 class = "first-body"> Supports Local Businesses </h2>
-            <h2 class = "small-text"> - Shopping locally keeps money within the San Diego community, helping small businesses thrive.</h2>
-            </h2>  
+    
+    <body>
+        <div class="first">
+            <div class="text">
+                <h4 class="first-text">Why Shop Locally?</h4>
+                <h2 class="first-body">Reduces Environmental Impact</h2>
+                <h2 class="small-text">- Shopping nearby cuts down on shipping and transportation emissions, making it a greener choice.</h2>
+                <h2 class="first-body">Encourages Local Entrepreneurship</h2>
+                <h2 class="small-text">- More support for small businesses means more opportunities for local startups and innovation.</h2>
+                <h2 class="first-body">Boosts the Local Economy</h2>
+                <h2 class="small-text">- More dollars spent at local stores circulate back into the city, creating jobs and growth.</h2>
+                <h2 class="first-body">Fresher, Sustainable Food</h2>  
+                <h2 class="small-text">- Farmers' markets and local grocers provide fresh, seasonal, and organic produce straight from regional farms</h2>  
+                <h2 class="first-body">Supports Local Businesses</h2>
+                <h2 class="small-text">- Shopping locally keeps money within the San Diego community, helping small businesses thrive.</h2>
+            </div>
+            <iframe class = "video1" width="560" height="315" src="https://www.youtube.com/embed/EeHCtVl1U_Q?si=_1VlvhGv9CgFeUr1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <iframe class = "video1" width="560" height="315" src="https://www.youtube.com/embed/EeHCtVl1U_Q?si=_1VlvhGv9CgFeUr1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
+           
 
-        <!--<img class = "photo1" width = "400" height = "400" style="display: inline-block; margin: auto; width: 400px;" id = "photo"  src = "images/shop.png" alt = "Header Photo"/> -->
-    </div>
-       
-    <div style="height: 100px;"> </div>
-    <h1 class = "Local Shops" id = "LocalShops">Local Shops</h1>
-    <h3>Short description about topic</h3>
-
+        <div style="height: 50px;"></div>
+        <h1 class="Local Shops" id="LocalShops">Local Shops</h1>
+        <h4 class="first-text">Discover hidden gems nearby!</h4>
     
         <div>
-
-            <ul>
-                <li>Insert Local Company</li>
-                <li>Insert Local Company</li>
-                <li>Insert Local Company</li>
-                <li>Insert Local Company</li>
-                <li>Insert Local Company</li> 
-            </ul>
+            <h2 class="first-body">Click below to locate our shops page and find out how to support your local retailers!</h2>
         </div>
-
-    <div class = image-divider1> </div>
-                
+        <div class="center-container">
+            <button class="pageButtons" onclick="window.location.href='restaurants.html'">&rarr; Shops Page &larr;</button>
+        </div>
+    
+        <div class="image-divider1"></div>
+                    
         <div style="height: 100px;"></div>
-        <h1 class = "Restaurants" id = "Restaurants">Local Restaurants</h1>
-        <h3>Short description about topic</h3>
-
+        <h1 class="Restaurants" id="Restaurants">Local Restaurants</h1>
+        <h4 class="first-text">Craving something delicious?🍴</h4>
+    
         <div>
-
-             <ol>
-                 <li>First</li>
-                 <li>Second</li>
-                 <li>Third</li>
-                 <li>Fourth</li>
-                 <li>Fifth etc.</li>
-             </ol>
-         </div>
-
-         <div class = image-divider2> </div>
-
-         <div style="height: 100px;"></div>
-         <h1 class = "Support" id = "Support">Extra Resources and Info</h1>
-
-         <div> <!--this is where we can add links to the company websites or locations,
-            i just put ucsd here as a start-->
-            <a href = "https://ucsd.edu/" > Link to Company </a>     
+            <h2 class="first-body">Click below to locate our restaurants page and find out how to support your local restaurants!</h2>
         </div>
-        <div> <!--this is where we can add links to the company websites or locations,
-            i just put ucsd here as a start-->
-            <a href = "https://ucsd.edu/" > Link to Company </a>     
+        <div class="center-container">
+            <button class="pageButtons" onclick="window.location.href='restaurants.html'"> &rarr; Restaurants Page &larr;</button>
         </div>
-        <div> <!--this is where we can add links to the company websites or locations,
-            i just put ucsd here as a start-->
-            <a href = "https://ucsd.edu/" > Link to Company </a>     
-        </div>
-        <div> <!--this is where we can add links to the company websites or locations,
-            i just put ucsd here as a start-->
-            <a href = "https://ucsd.edu/" > Link to Company </a>     
-        </div>
+        <div class="image-divider2"></div>
+    
 
-       
-    </div>
-
-
-</body>
-
-
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    
     <footer>
-        <p>Made by: WIC &hearts;</p>
+        <p class="footer">Made by: WIC &hearts;</p>
     </footer>
 </html>
