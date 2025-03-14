@@ -73,19 +73,17 @@ section {
 
 
 .header-box {
-    background-color: #88998C;
+    background-color: #88998C; /* Light gray background */
     padding: 20px;
     margin-top: 0px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures space between elements */
-    gap: 20px;
+    display: flex; /* Aligns image & text side by side */
+    align-items: center; /* Centers them vertically */
+    gap: 20px; /* Space between image and text */
 }
-.drops {
+.drops{
     width: 200px;
     height: 200px;
-    flex-shrink: 0; /* Prevents the images from shrinking */
 }
 h1 {
     text-align: center;
@@ -169,8 +167,8 @@ h4 {
     height: 400px; 
     display: flex;
     align-items: center; 
-    justify-content: center;
-    color: white; 
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Adjust text color */
     text-align: center;
     margin-bottom: 25px;
 }
