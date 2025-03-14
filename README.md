@@ -20,6 +20,12 @@ This project aims to promote local businesses in San Diego by showcasing shops a
 - Direct links to restaurant websites
 - Explanation of why supporting small restaurants matters
 
+### Shops Page (shops.html)
+- Showcase of local, sustainable shops
+- Information about each shop with images
+- Direct links to restaurant websites
+- Explanation of why supporting small retail shops matters
+
 ## Technical Features
 
 ### Design Elements
@@ -44,9 +50,10 @@ This project aims to promote local businesses in San Diego by showcasing shops a
 Shop-Local-San-Diego/
 ├── webpage.html            # Main landing page
 ├── restaurants.html        # Restaurant showcase page
+├── shops.html              # Shops showcase page
 ├── script.js               # JavaScript for animations
 ├── style.css               # Main stylesheet
-├── styles.css              # Restaurant page stylesheet
+├── styles.css              # Restaurant/Shop page stylesheet
 ├── reset.css               # CSS reset
 ├── images/                 # Image assets
 │   ├── leftdrop.png
@@ -63,6 +70,14 @@ Shop-Local-San-Diego/
 │   ├── piacere mio.png
 │   ├── topsprout.png
 │   ├── sprout4.png
+│   └── potnobg.png                   
+│   ├── Earthwell-Blog-1.png.        # Shops images
+│   ├── Scisters+August+2023-81.jpg
+│   ├── refillpantry.jpg.webp
+│   ├── origins.jpg
+│   ├── solona.jpeg
+│   ├── topsprout.png
+│   ├── sprout4.png
 │   └── potnobg.png
 └── fonts/                  # Custom fonts
     ├── Sunflare.ttf
@@ -74,7 +89,7 @@ Shop-Local-San-Diego/
 ## Setup Instructions
 
 1. Clone or download the repository
-2. No server required - open `webpage.html` or `restaurants.html` in any modern browser
+2. No server required - open `webpage.html`,`restaurants.html`, or `shops.html` in any     modern browser
 3. For development, any standard text editor or IDE can be used
 
 ## Browser Compatibility
